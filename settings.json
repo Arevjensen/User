@@ -1,0 +1,238 @@
+{
+  "workbench.sideBar.location": "right",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "C-L"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "å"
+      ],
+      "after": [
+        "&"
+      ]
+    },
+    {
+      "before": [
+        "ø"
+      ],
+      "after": [
+        "{"
+      ]
+    },
+    {
+      "before": [
+        "Ø"
+      ],
+      "after": [
+        "["
+      ]
+    },
+    {
+      "before": [
+        "æ"
+      ],
+      "after": [
+        "}"
+      ]
+    },
+    {
+      "before": [
+        "Æ"
+      ],
+      "after": [
+        "]"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "C-L"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "J"
+      ],
+      "commands": [
+        "editor.action.moveLinesDownAction"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.moveLinesUpAction"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": [
+        "<leader>",
+        "P",
+      ],
+      "commands": [
+        "editor.action.clipboardPasteAction"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "Y",
+      ],
+      "commands": [
+        "editor.action.clipboardCopyAction"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "d",
+      ],
+      "commands": [
+        "editor.action.clipboardCutAction"
+      ],
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ],
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "before": [
+        "C-u"
+      ],
+      "after": [
+        "C-u",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "C-d"
+      ],
+      "after": [
+        "C-d",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p",
+        "s"
+      ],
+      "commands": [
+        "workbench.view.search"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "p",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ],
+    },
+    {
+      "before": [
+        "Q",
+      ],
+      "after": [
+        ""
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.codeAction"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "r"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ],
+      "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
+    },
+    {
+      "before": [
+        "<leader>",
+        "P",
+      ],
+      "commands": [
+        "editor.action.clipboardPasteAction"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "Y",
+      ],
+      "commands": [
+        "editor.action.clipboardCopyAction"
+      ],
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.incsearch": true,
+  "editor.tabSize": 8,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "relative",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Rosé Pine",
+  "telemetry.telemetryLevel": "error",
+  "redhat.telemetry.enabled": true,
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "files.associations": {
+    "*.yamp": "yaml"
+  },
+}
